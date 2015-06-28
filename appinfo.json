@@ -1,0 +1,57 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "clegger@gmail.com",
+    "longName": "bulb",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            },
+            {
+                "file": "images/Icon Check.png",
+                "name": "IMAGES_ICON_CHECK_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/Icon Plus.png",
+                "name": "IMAGES_ICON_PLUS_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/Icon Minus.png",
+                "name": "IMAGES_ICON_MINUS_PNG",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "bulb",
+    "uuid": "59b9d174-ccda-421c-9719-119fdef852e5",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
