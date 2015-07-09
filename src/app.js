@@ -38,7 +38,7 @@ wind.add(stat_field);
 
 function on_click(e) {
   if(e.button == 'up') {
-    if(val < 10) {
+    if(val < 9) {
       val += 1;
     } else {
       Vibe.vibrate('short');
@@ -59,7 +59,7 @@ function show_status(stat_text) {
   stat_field.color('black');
   setTimeout(function () {
     stat_field.color('white');
-  }, 1000);
+  }, 3000);
 }
 
 wind.on('click', 'up', on_click);
@@ -69,7 +69,7 @@ wind.on('click', 'select', function(e) {
       'url': 'http://cleg.pagekite.me/api',
       'method': 'post',
       'type': 'json',
-      'data': {'num': val}
+      'data': {'val': val}
     },
     function(data, status, request) {
       console.log('It\'s OK, server said: ' + JSON.stringify(data));
